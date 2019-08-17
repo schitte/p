@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cheese</title>
+    <title>Tag</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk=" crossorigin="anonymous" />
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
@@ -9,8 +9,12 @@
     <section class="section">
       <div class="container">
         <h1 class="title">Tag! You're It!</h1>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container>
         <h2 class="subtitle">
-          Whoever visits this page last is  <strong>it!</strong> Make someone else visit this page to make them <strong>it</strong> instead.
+          Whoever last visited this page last is  <strong>it!</strong> Make someone else visit this page to make them <strong>it</strong> instead.
         </h2>
         <h2 id="you" class="subtitle">
         </h2>
@@ -24,7 +28,7 @@
   <script src="https://scripts.hashemian.com/js/visitorIPHOST.js.php"></script>
   <script>
     document.getElementById('it').innerHTML = "IP of the current 'it': " + VIH_HostIP;
-    document.getElementById('it').innerHTML = "Your IP: " + VIH_HostIP;
+    document.getElementById('you').innerHTML = "Your IP: " + VIH_HostIP;
   </script>
   </body>
 </html>
