@@ -1,0 +1,16 @@
+.SI_FEET_STUFF {
+	position: fixed;
+	margin: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 10em;
+	background-color: #5B3305;
+}
+
+.SI_FEET_BIG_TOE {
+	color: #FFFFFF;
+}
+
+.SI_FEET_THUMB_NAIL {
+	background-image: url("https://schitte.github.io/p/asshats/triangle.png");
+}
