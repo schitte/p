@@ -48,7 +48,7 @@
 		window.unsecureLocalCaptchaCheck = function() {
 			console.log("Unsecure Check");
 
-			var checkStatus = document.getElementById("checkbox").getAttribute("aria-checked");
+			var checkStatus = document.getElementsByTagName("iframe")[0].contentWindow.document.getElementById("checkbox").getAttribute("aria-checked");
 			console.log(checkStatus);
 			console.log(checkStatus === true);
 		}
