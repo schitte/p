@@ -45,12 +45,14 @@
 		</section>
 	</body>
 	<script>
-		window.unsecureLocalCaptchaCheck = function() {
-			console.log("Unsecure Check");
+		//below won't work, as elements can't be picked unless the origin is the same
+		//		window.unsecureLocalCaptchaCheck = function() {
+		//			console.log("Unsecure Check");
+		//
+		//			var checkStatus = document.getElementsByTagName("iframe")[0].contentWindow.document.getElementById("checkbox").getAttribute("aria-checked");
+		//			console.log(checkStatus);
+		//			console.log(checkStatus === true);
+		//		}
 
-			var checkStatus = document.getElementsByTagName("iframe")[0].contentWindow.document.getElementById("checkbox").getAttribute("aria-checked");
-			console.log(checkStatus);
-			console.log(checkStatus === true);
-		}
 	</script>
 </html>
